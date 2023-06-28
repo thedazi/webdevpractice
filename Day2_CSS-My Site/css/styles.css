@@ -1,0 +1,160 @@
+/*notes: font size = 16px = 1rem = 100% */
+
+/*base*/
+
+body {
+  margin: 0%;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted none none;
+  border-width: 9px;
+  width: 10%;
+}
+
+h1 {
+  color: #142850;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #142850;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #38689b;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+}
+
+a:hover {
+  color: #4080ff;
+}
+
+/*containers*/
+
+.top-container {
+  background-image: linear-gradient(#3b9be4, #8ccbfc);
+  text-align: center;
+  margin: 0;
+}
+
+.middle-container {
+  background-image: linear-gradient(white, #ffe6aa);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #ffe6aa;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+/*classes*/
+
+.btn {
+  border-radius: 12px;
+  background-color: rgb(23, 173, 173);
+  color: white;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-stretch: expanded;
+  text-decoration: none;
+  padding: 16px 28px;
+  transition-duration: 0.5s;
+  position: relative;
+  top: 3rem;
+}
+
+.btn:hover {
+  background-color: #3eb3f7;
+  color: white;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/*tables*/
+
+.intro {
+  width: 40%;
+  margin: 10px auto;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.contact-me {
+  padding-bottom: 1rem;
+}
+
+.experience-table {
+  margin: 0 auto;
+  border: dashed 3px;
+}
+
+.footer-link {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;  
+}
+
+/*images*/
+.cloud1 {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.cloud2 {
+  position: absolute;
+}
+
+.mountain {
+  vertical-align: bottom;
+}
+
+.computer-pic {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  width: 20%;
+
+}
+
+.language-pic {
+  width: 23%;
+  float: right;
+  margin-left: 30px;
+}
+
